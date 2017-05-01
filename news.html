@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Healthcare News, Recent Updates | AV Resources</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css"> 
+ 
+  <link href="https://fonts.googleapis.com/css?family=Assistant:200,400" rel="stylesheet">
+
+</head>
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top" style="font-size:18px;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="/">AVR</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+	<li><a href="/about">About</a></li>
+	<li><a href="/services">Services</a></li>
+	<!-- <li><a href="#portfolio">Community</a></li> -->
+	<li><a href="/news">News</a></li>
+	<li><a href="#contact">Work With Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="top-banner2">
+    <div class="row">
+     <div class="col-sm-12 page-intro">
+       <h1>AV Resources <br><strong>News & Events</strong></h1>
+     </div>
+   </div>
+  </div>
+</div>
+
+<!-- shows all body when in mobile -->
+<script>
+  function showAll(buttonId, bodyId) {
+    var currentHeight = document.getElementById(bodyId).style.height;
+
+    if (currentHeight == '100%'){
+      document.getElementById(bodyId).style.height = "100px";
+      document.getElementById(buttonId).innerHTML = "View Full Article";  
+    }
+    else {
+      document.getElementById(bodyId).style.height = "100%";
+      document.getElementById(buttonId).innerHTML = "View Less";  
+    }
+  }
+</script>
+
+<div class="container-fluid news">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="news-panel panel-default">
+        <div class="news-panel-heading">
+	    <h1>Test</h1>
+            <p>posted on: 04/29/2017</p>
+	</div>
+	<div class="panel-body" id="body1">
+	  <p>This is a test "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
+	</div>
+	<div class="panel-footer">
+          <button class="btn btn-default btn-sm view-more-btn" id="viewMore1" onclick="showAll('viewMore1', 'body1')" style="position:relative;">Read Full Article</button>
+        </div>
+       </div>
+      <div class="news-panel panel-default">
+        <div class="news-panel-heading">
+          <h1>Test</h1>
+            <p>posted on: 04/29/2017</p>
+        </div>
+        <div class="panel-body" id="body2">
+            <p>This is a test "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excep
+turi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita dis
+tinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendu
+s. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
+ sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+
+
+Test Test
+            </p>
+        </div>
+        <div class="panel-footer">
+          <button class="btn btn-default btn-sm view-more-btn" id="viewMore2" onclick="showAll('viewMore2','body2')"style="position:relative;">Read Full Article</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <a class="twitter-timeline" data-height=1000 href="https://twitter.com/TwitterDev/timelines/539487832448843776">National Park Tweets</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div
+</div>
+</div>
+
+<footer class="container-fluid text-center footer">
+  <!--
+    <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  -->
+  <div class="container-fluid" style="text-align:left; padding: 2% 10%;">
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="#">About</a><br>
+        <a href="#">Services</a><br>
+        <a href="#">News</a><br>
+        <a href="#">Work With Us</a><br>
+      </div>
+      <div class="col-sm-4">
+        <a href="#">Careers</a><br>
+        <a href="#">Students</a><br>
+
+      </div>
+      <div class="col-sm-4">
+        <a href="#" style="position:absolute;right:40px;top:100px;font-size:12px;">designed & powered by Aspiri.co</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
+

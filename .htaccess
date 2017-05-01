@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^services$ services.html
+RewriteRule ^news$ news.html
+RewriteRule ^about$ about.html
+RewriteRule ^$ index.html

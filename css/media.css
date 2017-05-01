@@ -1,0 +1,256 @@
+/* desktop */
+@media screen and (max-width: 970px) {
+
+}
+
+@media screen and (max-width: 768px) {
+.inquire-box {
+  color: #fff;
+  background-color: #263238;
+  display: block;
+  padding: 20px 20px;
+  height: 100%;
+}
+.inquire-box h2 {
+  font-size: 22px;
+}
+.inquire-box h4 {
+  font-size: 16px;
+}
+
+img {
+  zoom: 75%;
+  width: 100%;
+}
+
+.nurse-sm-bg {
+  display:block;
+  background-image:url('https://www.scripps.org/sparkle-assets/images/hr_young-nurse.jpg');
+  zoom:85%;
+  height:auto;
+  width:100%;
+  background-repeat:no-repeat;
+}
+.nurse-sm-bg p {
+  padding: 20% 10%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.nurse-bg {
+  display:none;
+}
+
+.service {
+
+}
+.service img {
+  box-shadow: 0px 0px 0px rgba(0,0,0, .2);
+}
+
+.service-full-width {
+  padding-left:5%;
+  padding-right:5%;
+  width: 100%;
+}
+
+.service-description-full {
+  display:none;
+}
+  
+.service-description-small {
+  display:block;
+  position:absolute;
+  top:45%;
+  left: 40%;
+  color:#000;
+  font-size: 16px;
+}
+
+.title {
+text-align: left;
+padding-left: 10% !important;
+padding-top: 5%;
+font-size: 35px;
+}
+
+.page-intro h1 { 
+  font-size: 28px;
+}
+
+.news {
+  margin: 2%;
+}
+
+.page-intro {
+  padding: 15% 8% !important;
+}
+.page-intro h1 {
+  font-size: 30px;
+}
+
+.btn-scale {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.team-description2-lg {
+  display:none;
+}
+.team-description2-sm {
+  display:block;
+  text-align:left !important;
+}
+
+
+}
+
+/* mobile */
+@media screen and (max-width: 506px) {
+.inquire-box {
+  margin: 0;
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
+.inquire-box h2 {
+  font-size: 22px;
+  text-align: left;
+  padding-left: 1%;
+}
+.inquire-box h4 {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 1%;
+  padding-right: 30%;
+}
+.inquire-box p {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 1%;
+  padding-right: 30%%;
+}
+.inquire-box button {
+  position:absolute;
+  right: 5%;
+  bottom: 10%;
+}
+
+img {
+  zoom: 50%;
+}
+
+.nurse-sm-bg {
+  zoom:65%;
+}
+
+.service-full-width {
+  display:block;
+  padding:0;
+}
+
+.service {
+  padding: 0 0;
+  height:150px;
+}
+  
+.title {
+  text-align: left;
+  padding-left: 5% !important;
+  padding-top: 5%;
+  font-size: 20px;
+}
+
+.service-description-small {
+  display:block;
+  position:absolute;
+  top:20%;
+  left: 35%;
+  color:#000;
+  font-size: 16px;
+}
+
+.community-box {
+  background-color:#fff;
+  height:175px;
+  width: 200px;
+  margin-left: 0;
+  margin-top: 100px;
+}
+.community-box hr {
+  margin: 0 0;
+}
+
+.quote {
+  padding: 5%;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.quote-owner{
+}
+
+.quote-owner p {
+  padding: 5% 5%;
+}
+
+.title {
+  text-align: left;
+  padding-left: 0 !important;
+  padding-top: 5%;
+  font-size: 30px;
+}
+
+.subtitle {
+  font-weight:100 !important;
+  font-size: 16px;
+  padding-left: 0 !important;
+}
+
+.service-section {
+  padding: 0 0 !important;
+  overflow:hidden;
+}
+
+.page-intro {
+  padding: 15% 8% !important;
+}
+.page-intro h1 {
+  font-size: 30px;
+}
+
+.panel {
+  margin-top: 20px;
+}
+
+.page-intro-light-bg {
+  color: #000;
+  padding: 15% 8% !important;
+}
+
+.page-intro-light-bg h1 {
+  font-size: 30px !important;
+}
+
+.team-description1 h1 {
+  font-size:24px;
+  padding-top:16px;
+}
+.team-description1 h2 {
+  font-size: 20px;
+}
+
+.team-description2 h1 {
+  font-size: 24px;
+  padding-top:16px;
+}
+.team-description2 h2 {
+  font-size:20px;
+}
+
+
+}
